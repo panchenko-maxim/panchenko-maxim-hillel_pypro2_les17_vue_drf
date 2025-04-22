@@ -28,7 +28,7 @@ export default {
                 localStorage.setItem('refresh_token', response.data.refresh);
                 this.$router.push('/')
             } catch (error) {
-                alert('Login failed')
+                alert('Login failed');
             };
         }
     }
